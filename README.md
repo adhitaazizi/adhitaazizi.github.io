@@ -42,9 +42,9 @@ portfolio/
 
 ## Configuration Notes
 
-- **Dark Mode**: Disabled - theme follows browser preference
+- **Theme Toggle**: Light/Dark mode toggle (no system option)
 - **Navbar Fixed**: Yes (scrolls with page)
-- **Search**: Enabled (Ctrl+K)
+- **Search**: Enabled (Ctrl+K or click search button)
 
 ## Local Development
 
