@@ -15,6 +15,9 @@ portfolio/
 ├── _posts/              # Blog posts in markdown
 ├── _projects/           # Project entries
 ├── _bibliography/       # BibTeX files for publications
+├── _data/               # Data files
+│   ├── certifications.yml   # Certification entries for about page
+│   └── cv.yml               # CV data
 ├── _includes/           # Reusable components (header, footer)
 ├── _layouts/            # Page templates
 ├── _sass/               # SCSS stylesheets
@@ -42,9 +45,23 @@ portfolio/
 
 ## Configuration Notes
 
+- **Theme Color**: #B71D1D (custom red)
 - **Theme Toggle**: Light/Dark mode toggle (no system option)
 - **Navbar Fixed**: Yes (scrolls with page)
-- **Search**: Enabled (Ctrl+K or click search button)
+- **Search**: Enabled (Ctrl+K or click search icon)
+
+## Social Links Configuration
+
+Social icons are displayed at the bottom of the about page. Configure them in `_data/socials.yml`:
+
+| Platform | Config Key | Example Value |
+|----------|-----------|---------------|
+| GitHub | `github_username` | `adhitaazizi` |
+| LinkedIn | `linkedin_username` | `adhita-azizi` |
+| X (Twitter) | `x_username` | `adhitaazizi` |
+| Email | `email` | `your@gmail.com` |
+
+The icons use Font Awesome 6 for modern, up-to-date logos.
 
 ## Local Development
 

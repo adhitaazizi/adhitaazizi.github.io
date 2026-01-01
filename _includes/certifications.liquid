@@ -1,0 +1,35 @@
+{% if site.data.certifications.size > 0 %}
+<div class="certifications">
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for cert in site.data.certifications %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center" style="width: 90px;">
+          <span class="badge font-weight-bold text-uppercase align-middle" style="min-width: 65px; background-color: var(--global-theme-color); color: white;">
+            {{ cert.date | date: "%Y" }}
+          </span>
+        </div>
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-sm-0">
+          <h6 class="font-weight-bold">
+            {% if cert.credential_url %}
+              <a href="{{ cert.credential_url }}" target="_blank" rel="noopener noreferrer">{{ cert.name }}</a>
+            {% else %}
+              {{ cert.name }}
+            {% endif %}
+          </h6>
+          <p class="font-weight-light text-muted mb-0">{{ cert.issuer }}</p>
+          {% if cert.description %}
+            <p class="font-weight-light text-muted mb-0" style="font-size: 0.875rem;">{{ cert.description }}</p>
+          {% endif %}
+          {% if cert.credential_id %}
+            <p class="font-weight-light text-muted mb-0" style="font-size: 0.75rem;">
+              Credential ID: {{ cert.credential_id }}
+            </p>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

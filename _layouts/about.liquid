@@ -56,6 +56,12 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Certifications -->
+    {% if page.certifications and page.certifications.enabled %}
+      <h2>certifications</h2>
+      {% include certifications.liquid %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
