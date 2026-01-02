@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Machine Learning and Cloud Computing Engineer</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>+6281319751401</p>
+    <p>Jakarta, Indonesia</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,10 +29,9 @@ certifications:
   enabled: true # includes certifications section from _data/certifications.yml
 ---
 
-I am a final year undergraduate student at President University, majoring in Computer Science.
+A final year undergraduate student at President University, majoring in Computer Science. Proactively building a strong foundation in cross-platform application, a machine learning solution, with hands-on experience in many tools and programming languages. Able to work both independently and as a supportive team member. Eagers to solve real-world problems and contribute to innovative technology projects.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Github Account: [](https://github.com/adhitaazizi)
-LinkedIn Account: [](https://linkedin.com/in/adhitaazizi)
-X Account: [](https://x.com/adhitaazizi)
+My social account:
+- Github Account: [https://github.com/adhitaazizi](https://github.com/adhitaazizi)
+- LinkedIn Account: [https://linkedin.com/in/adhitaazizi](https://linkedin.com/in/adhitaazizi)
+- X Account: [https://x.com/adhitaazizi](https://x.com/adhitaazizi)

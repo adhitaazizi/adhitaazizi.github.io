@@ -1,23 +1,22 @@
 # Certifications Data
 # Add your certifications here following this format
 
-- name: Example Certification
-  issuer: Certification Authority
-  date: 2024-01-01
-  credential_id: ABC123XYZ
-  credential_url: https://example.com/verify/ABC123XYZ
-  description: Brief description of what this certification covers
+- name: AWS Cloud Solutions Architect
+  issuer: Amazon Web Services
+  date: 2025-07-25
+  credential_id: 2GBV8TF9ZHTD
+  credential_url: https://www.coursera.org/account/accomplishments/professional-cert/certificate/2GBV8TF9ZHTD
+  description: The certification covers the learning.
   icon: fas fa-certificate  
   Optional: Font Awesome icon
 
-# Example entries (uncomment and modify as needed):
-#
-# - name: AWS Cloud Solutions Architect
-#   issuer: Amazon Web Services
-#   date: 2024-06-15
-#   credential_id: AWS-SAA-123456
-#   credential_url: https://aws.amazon.com/verification
-#   description: Cloud architecture and AWS services
+- name: AWS Cloud Solutions Architect
+  issuer: Amazon Web Services
+  date: 2025-07-25
+  credential_id: 2GBV8TF9ZHTD
+  credential_url: https://www.coursera.org/account/accomplishments/professional-cert/certificate/2GBV8TF9ZHTD
+  description: The certification covers the learning.
+
 #
 # - name: TensorFlow Developer Certificate
 #   issuer: Google
