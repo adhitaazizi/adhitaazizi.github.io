@@ -1,6 +1,6 @@
-# Adhita Azizi - Portfolio
-
-Personal portfolio website built with Jekyll using the [al-folio](https://github.com/alshedivat/al-folio) theme.
+# Adhita Azizi -# Portfolio
+A personal portfolio website showcasing work and school projects.
+ing the [al-folio](https://github.com/alshedivat/al-folio) theme.
 
 ## 🌐 Live Site
 

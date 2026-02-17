@@ -4,7 +4,7 @@ title: Tech Talent Academy
 description: AI-Enhanced Learning Management System
 img: assets/img/tech-talent-academy.png
 importance: 4
-category: work
+category: school
 category_desc: Mobile App
 tech_stack: React Native, Expo, NativeWind, AI APIs, Google Speech-to-Text, GCP
 github: https://github.com/adhitaazizi/TechTalent-Academy

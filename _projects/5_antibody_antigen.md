@@ -4,7 +4,7 @@ title: Antibody-Antigen Affinity Prediction
 description: Deep learning for predicting antibody-antigen binding affinity
 img: assets/img/antibody-antigen-afffinity-prediction.png
 importance: 5
-category: work
+category: school
 category_desc: Machine Learning
 tech_stack: PyTorch, PyG, Graph Neural Network, Protein 3D Structure Prediction, PLM, Biopython
 github: https://github.com/adhitaazizi/chewy

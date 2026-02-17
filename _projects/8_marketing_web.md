@@ -4,7 +4,7 @@ title: Zenin Agency Marketing Landing Page
 description: High-conversion marketing and agency landing page with scroll animations
 img: assets/img/marketing-web.png
 importance: 8
-category: work
+category: school
 category_desc: Web App
 tech_stack: SvelteKit 2, Svelte 5, Tailwind CSS 4, Paraglide JS, TypeScript
 github: https://github.com/adhitaazizi/marketing-web

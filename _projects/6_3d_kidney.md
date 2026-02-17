@@ -4,7 +4,7 @@ title: 3D Kidney Segmentation
 description: Automated kidney structure segmentation from medical scans
 img: assets/img/3d-kidney-segmentation.png
 importance: 6
-category: work
+category: school
 category_desc: Machine Learning
 tech_stack: PyTorch, 3D Segmentation, CT Images, FC-CNN
 github: https://github.com/adhitaazizi/computer-vision-project

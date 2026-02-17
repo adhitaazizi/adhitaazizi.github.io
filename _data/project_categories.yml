@@ -11,8 +11,8 @@
     - name: Data & Analytics
       tools: Python, NumPy, Pandas, Scikit-learn, PyG, Biopython
 
-- name: fun
-  display_name: Fun Projects
+- name: school
+  display_name: School Projects
   description: Experimental and creative projects exploring new technologies and innovative ideas.
   tech_stack_overview:
     - name: Frontend Technologies

@@ -4,7 +4,7 @@ title: Telehealth
 description: Mobile Healthcare Consultation and Telemetry App
 img: assets/img/telehealth.png
 importance: 3
-category: work
+category: school
 category_desc: Mobile App
 selected: true
 tech_stack: Flutter, LLM, Langchain, Flask, Google Cloud Platform

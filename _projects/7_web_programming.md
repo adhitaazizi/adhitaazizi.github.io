@@ -4,7 +4,7 @@ title: Personal Portfolio Website
 description: High-performance personal portfolio with Svelte 5 and SvelteKit
 img: assets/img/web-programming-final-project.png
 importance: 7
-category: work
+category: school
 category_desc: Web App
 tech_stack: Svelte 5, SvelteKit, Tailwind CSS v4, MDSveX, Paraglide-js, TypeScript
 github: https://github.com/adhitaazizi/web-programming-final-project
