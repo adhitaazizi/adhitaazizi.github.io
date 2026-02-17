@@ -6,7 +6,7 @@ subtitle: <a href='#'>Machine Learning and Cloud Computing Engineer</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>+6281319751401</p>
