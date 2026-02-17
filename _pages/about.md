@@ -8,11 +8,10 @@ profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>+6281319751401</p>
-    <p>Jakarta, Indonesia</p>
+  more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_projects: true # includes a list of projects marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -29,9 +28,16 @@ certifications:
   enabled: true # includes certifications section from _data/certifications.yml
 ---
 
-A final year undergraduate student at President University, majoring in Computer Science. Proactively building a strong foundation in cross-platform application, a machine learning solution, with hands-on experience in many tools and programming languages. Able to work both independently and as a supportive team member. Eagers to solve real-world problems and contribute to innovative technology projects.
+A Computer Science undergraduate student at President University with a strong foundation in machine learning, full-stack development, and cloud computing. Experienced in building end-to-end AI solutions, from data preprocessing and model development to deployment on cloud platforms. Passionate about solving real-world problems through innovative technology projects.
 
-My social account:
-- Github Account: [https://github.com/adhitaazizi](https://github.com/adhitaazizi)
-- LinkedIn Account: [https://linkedin.com/in/adhitaazizi](https://linkedin.com/in/adhitaazizi)
-- X Account: [https://x.com/adhitaazizi](https://x.com/adhitaazizi)
+## Expertise
+
+**Machine Learning & AI**: Deep learning, computer vision, natural language processing, graph neural networks, protein structure prediction, LLM integration, and multi-agent systems.
+
+**Software Development**: Full-stack web development, cross-platform mobile applications, RESTful APIs, database design, and modern frontend frameworks.
+
+**Cloud & DevOps**: Amazon Web Services (AWS), Google Cloud Platform (GCP), containerization, CI/CD pipelines, and cloud-based ML deployment.
+
+**Programming Languages**: Python, JavaScript/TypeScript, Dart (Flutter), Java, C++, and SQL.
+
+**Tools & Frameworks**: PyTorch, TensorFlow, React, React Native, Svelte, SvelteKit, Next.js, Flutter, Flask, Node.js, and various ML/DL libraries.

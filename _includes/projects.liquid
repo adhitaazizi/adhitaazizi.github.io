@@ -14,6 +14,9 @@
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
+        {% if project.category_desc %}
+          <p class="card-text text-muted" style="font-size: 0.875rem;"><strong>Category:</strong> {{ project.category_desc }}</p>
+        {% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">

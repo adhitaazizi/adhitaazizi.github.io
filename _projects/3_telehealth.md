@@ -5,8 +5,17 @@ description: Mobile Healthcare Consultation and Telemetry App
 img: assets/img/telehealth.png
 importance: 3
 category: work
+category_desc: Mobile App
+selected: true
+tech_stack: Flutter, LLM, Langchain, Flask, Google Cloud Platform
 github: https://github.com/adhitaazizi/TechTalent-Academy
 ---
+
+{% if page.img %}
+<div class="project-thumbnail mb-4">
+  {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" %}
+</div>
+{% endif %}
 
 ## Challenges
 
