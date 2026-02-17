@@ -17,10 +17,15 @@ portfolio/
 ├── _bibliography/       # BibTeX files for publications
 ├── _data/               # Data files
 │   ├── certifications.yml   # Certification entries for about page
-│   └── cv.yml               # CV data
+│   ├── cv.yml               # CV data
+│   └── project_categories.yml # Project category definitions with tech stacks
 ├── _includes/           # Reusable components (header, footer)
+│   ├── projects.liquid      # Project card template
+│   └── ...
 ├── _layouts/            # Page templates
 ├── _sass/               # SCSS stylesheets
+│   ├── _base.scss          # Base styles including project cards
+│   └── ...
 └── assets/              # Images, PDFs, and static files
 ```
 
@@ -39,9 +44,31 @@ portfolio/
 1. **User visits site** → Jekyll serves static HTML
 2. **Navigation** → Pages rendered from `_pages/` with corresponding layouts from `_layouts/`
 3. **Blog** → Posts from `_posts/` rendered with pagination
-4. **Projects** → Entries from `_projects/` displayed in grid layout
-5. **CV** → Generated from `assets/json/resume.json` or `_data/cv.yml`
-6. **Publications** → Generated from `_bibliography/papers.bib` (currently hidden)
+4. **Projects** → Categorized entries from `_projects/` with enhanced card layout:
+   - **Categories**: Defined in `_data/project_categories.yml` (work, fun)
+   - **Structure per category**:
+     - Category name and description
+     - Tech stack overview showing:
+       - Machine Learning & AI tools
+       - Web & Mobile Development frameworks
+       - Cloud & Infrastructure technologies
+       - Data & Analytics libraries
+   - **Project cards**:
+     - Image height: 250px (optimized for visibility)
+     - Project thumbnail using web screenshots
+     - Title and description
+     - Tech stack tags (first 4 shown, +N indicator if more)
+     - GitHub repository link with star count
+5. **Certifications** → Displayed on the about (home) page, sourced from `_data/certifications.yml`:
+   - Microsoft AI Product Manager (Coursera)
+   - Microsoft AI & ML Engineering (Coursera)
+   - AWS Cloud Solutions Architect (Coursera)
+   - Neo4j Graph Data Science Certification (Neo4j GraphAcademy)
+   - Neo4j Certified Professional (Neo4j GraphAcademy)
+   - Each entry includes: `name`, `issuer`, `date`, `credential_id`, `credential_url`, `description`
+   - Rendered via `_includes/certifications.liquid` with year badge and linked title
+6. **CV** → Generated from `assets/json/resume.json` or `_data/cv.yml`
+7. **Publications** → Generated from `_bibliography/papers.bib` (currently hidden)
 
 ## Configuration Notes
 

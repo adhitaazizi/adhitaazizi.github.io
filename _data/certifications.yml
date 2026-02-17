@@ -1,37 +1,36 @@
 # Certifications Data
-# Add your certifications here following this format
 
-- name: IBM Full Stack Software Developer
-  issuer: IBM (via Coursera)
-  date: 2025-01-01
-  credential_id: 2GBV8TF9ZHTD
-  credential_url: https://www.coursera.org/account/accomplishments/professional-cert/certificate/2GBV8TF9ZHTD
-  description: Professional certification covering full stack web development with modern technologies.
-
-- name: Google Project Management
-  issuer: Google (via Coursera)
-  date: 2024-12-01
-  credential_id: GMSFZVOFH2UJ
-  credential_url: https://www.coursera.org/account/accomplishments/specialization/certificate/GMSFZVOFH2UJ
-  description: Specialization covering project management fundamentals and best practices.
-
-- name: Meta Back-End Developer
-  issuer: Meta (via Coursera)
-  date: 2024-11-01
+- name: Microsoft AI Product Manager
+  issuer: Microsoft (via Coursera)
+  date: 2025-11-30
   credential_id: A2CGVSN0NK8B
   credential_url: https://www.coursera.org/account/accomplishments/specialization/certificate/A2CGVSN0NK8B
-  description: Specialization focused on back-end development skills and technologies.
+  description: Specialization covering AI product management, including market research, cloud strategy, and UX/UI design for AI products.
 
-- name: Neo4j Fundamentals
+- name: Microsoft AI & ML Engineering
+  issuer: Microsoft (via Coursera)
+  date: 2025-11-23
+  credential_id: GMSFZVOFH2UJ
+  credential_url: https://www.coursera.org/account/accomplishments/specialization/certificate/GMSFZVOFH2UJ
+  description: Professional Certificate designed to equip engineers with skills in artificial intelligence and machine learning using Microsoft Azure.
+
+- name: AWS Cloud Solutions Architect
+  issuer: Amazon Web Services (via Coursera)
+  date: 2025-07-25
+  credential_id: 2GBV8TF9ZHTD
+  credential_url: https://www.coursera.org/account/accomplishments/professional-cert/certificate/2GBV8TF9ZHTD
+  description: Professional Certificate focused on designing and deploying scalable, highly available, and fault-tolerant systems on AWS.
+
+- name: Neo4j Graph Data Science Certification
   issuer: Neo4j GraphAcademy
-  date: 2024-10-01
+  date: 2025-08-17
   credential_id: 6a3f301a-f922-4c24-b3b9-9bce910be3f0
   credential_url: https://graphacademy.neo4j.com/c/6a3f301a-f922-4c24-b3b9-9bce910be3f0/
-  description: Certification in Neo4j graph database fundamentals.
+  description: Comprehensive knowledge of the Neo4j Graph Data Science Library and graph data science workflows.
 
-- name: Cypher Fundamentals
+- name: Neo4j Certified Professional
   issuer: Neo4j GraphAcademy
-  date: 2024-10-01
+  date: 2025-08-15
   credential_id: 1615088f-13f1-45f4-9de8-18d3a567faff
   credential_url: https://graphacademy.neo4j.com/c/1615088f-13f1-45f4-9de8-18d3a567faff/
-  description: Certification in Cypher query language for Neo4j.
+  description: Accredited certification proving proficiency with Neo4j graph database technology.

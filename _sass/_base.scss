@@ -693,7 +693,7 @@ footer.sticky-bottom {
   }
   
   .card-img-container {
-    height: 200px;
+    height: 250px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -741,20 +741,34 @@ footer.sticky-bottom {
   }
   
   .tech-stack-overview {
-    padding: 1rem;
+    padding: 1.25rem;
     background-color: var(--global-code-bg-color);
-    border-radius: 6px;
-    margin-bottom: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2.5rem;
+    border-left: 3px solid var(--global-theme-color);
     
     h5 {
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      margin-bottom: 1rem;
+      color: var(--global-theme-color);
+    }
+    
+    .tech-stack-item {
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
     
     strong {
       color: var(--global-theme-color);
+      font-weight: 600;
     }
   }
   

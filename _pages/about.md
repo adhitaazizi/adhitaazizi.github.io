@@ -28,16 +28,13 @@ certifications:
   enabled: true # includes certifications section from _data/certifications.yml
 ---
 
-A Computer Science undergraduate student at President University with a strong foundation in machine learning, full-stack development, and cloud computing. Experienced in building end-to-end AI solutions, from data preprocessing and model development to deployment on cloud platforms. Passionate about solving real-world problems through innovative technology projects.
+Final Year Computer Science student with hands-on experience building enterprise AI systems across multiplatform applications and real environments. Through my previous internships, I've developed end-to-end machine learning pipelines and agentic AI systems. I'm seeking opportunities as a Software Engineer or Machine Learning Systems Engineer where I can design, deploy, and scale intelligent systems that bridge AI research with production infrastructure.
 
-## Expertise
+The following are my areas of expertise:
 
-**Machine Learning & AI**: Deep learning, computer vision, natural language processing, graph neural networks, protein structure prediction, LLM integration, and multi-agent systems.
+- Machine Learning System Engineering
+- Agentic AI Engineering
+- DevOps & Cloud Computing
+- Full-stack Development
+- Mobile Application Development
 
-**Software Development**: Full-stack web development, cross-platform mobile applications, RESTful APIs, database design, and modern frontend frameworks.
-
-**Cloud & DevOps**: Amazon Web Services (AWS), Google Cloud Platform (GCP), containerization, CI/CD pipelines, and cloud-based ML deployment.
-
-**Programming Languages**: Python, JavaScript/TypeScript, Dart (Flutter), Java, C++, and SQL.
-
-**Tools & Frameworks**: PyTorch, TensorFlow, React, React Native, Svelte, SvelteKit, Next.js, Flutter, Flask, Node.js, and various ML/DL libraries.

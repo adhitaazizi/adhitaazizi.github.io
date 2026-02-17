@@ -26,16 +26,13 @@ horizontal: false
     {% endif %}
     
     {% if category_info.tech_stack_overview %}
-    <div class="tech-stack-overview mb-4">
-      <h5 class="text-muted mb-3">Tech Stack Overview</h5>
-      <div class="row">
-        {% for tech_group in category_info.tech_stack_overview %}
-        <div class="col-md-6 mb-2">
-          <strong>{{ tech_group.name }}:</strong>
-          <span class="text-muted">{{ tech_group.tools }}</span>
+    <div class="tech-stack-overview">
+      <h5>Tech Stacks Overview</h5>
+      {% for stack in category_info.tech_stack_overview %}
+        <div class="tech-stack-item">
+          <strong>{{ stack.name }}:</strong> {{ stack.tools }}
         </div>
-        {% endfor %}
-      </div>
+      {% endfor %}
     </div>
     {% endif %}
   </div>
