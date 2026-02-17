@@ -17,17 +17,7 @@
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
         
-        {% if project.tech_stack %}
-          <div class="tech-stack-tags mb-2">
-            {% assign tech_items = project.tech_stack | split: ", " %}
-            {% for tech in tech_items limit:4 %}
-              <span class="badge badge-pill badge-light">{{ tech }}</span>
-            {% endfor %}
-            {% if tech_items.size > 4 %}
-              <span class="badge badge-pill badge-light">+{{ tech_items.size | minus: 4 }}</span>
-            {% endif %}
-          </div>
-        {% endif %}
+
         
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}

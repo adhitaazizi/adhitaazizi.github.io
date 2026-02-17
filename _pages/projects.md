@@ -25,16 +25,7 @@ horizontal: false
     <p class="category-description">{{ category_info.description }}</p>
     {% endif %}
     
-    {% if category_info.tech_stack_overview %}
-    <div class="tech-stack-overview">
-      <h5>Tech Stacks Overview</h5>
-      {% for stack in category_info.tech_stack_overview %}
-        <div class="tech-stack-item">
-          <strong>{{ stack.name }}:</strong> {{ stack.tools }}
-        </div>
-      {% endfor %}
-    </div>
-    {% endif %}
+
   </div>
   
   {% assign categorized_projects = site.projects | where: "category", category %}
