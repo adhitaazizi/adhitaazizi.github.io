@@ -1,4 +1,4 @@
-{% assign selected_projects = site.projects | where: "selected", "true" | sort: "importance" %}
+{% assign selected_projects = site.projects | where: "selected", true | sort: "importance" %}
 
 <div class="projects">
   <div class="row row-cols-1 row-cols-md-3">
