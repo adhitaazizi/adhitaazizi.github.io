@@ -2,26 +2,40 @@
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
+        <div class="card-img-container">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project.img
+            sizes = "250px"
+            alt="project thumbnail"
+            class="card-img-top"
+          %}
+        </div>
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
-        {% if project.category_desc %}
-          <p class="card-text text-muted" style="font-size: 0.875rem;"><strong>Category:</strong> {{ project.category_desc }}</p>
+        
+        {% if project.tech_stack %}
+          <div class="tech-stack-tags mb-2">
+            {% assign tech_items = project.tech_stack | split: ", " %}
+            {% for tech in tech_items limit:4 %}
+              <span class="badge badge-pill badge-light">{{ tech }}</span>
+            {% endfor %}
+            {% if tech_items.size > 4 %}
+              <span class="badge badge-pill badge-light">+{{ tech_items.size | minus: 4 }}</span>
+            {% endif %}
+          </div>
         {% endif %}
+        
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github gh-icon"></i>
+                </a>
               </div>
               {% if project.github_stars %}
                 <span class="stars" data-toggle="tooltip" title="GitHub Stars">
