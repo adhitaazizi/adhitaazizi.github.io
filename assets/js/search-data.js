@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
@@ -410,33 +403,43 @@ ninja.data = [{
           description: "Automated kidney structure segmentation from medical scans",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_3d_kidney/";
+            },},{id: "projects-personal-portfolio-website",
+          title: 'Personal Portfolio Website',
+          description: "High-performance personal portfolio with Svelte 5 and SvelteKit",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_web_programming/";
+            },},{id: "projects-zenin-agency-marketing-landing-page",
+          title: 'Zenin Agency Marketing Landing Page',
+          description: "High-conversion marketing and agency landing page with scroll animations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_marketing_web/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75%72-%65%6D%61%69%6C@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%61%64%68%69%74%61%61%7A%69%7A%69@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/your-github-username", "_blank");
+          window.open("https://github.com/adhitaazizi", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/your-linkedin-username", "_blank");
+          window.open("https://www.linkedin.com/in/adhitaazizi", "_blank");
         },
       },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/your-x-handle", "_blank");
+          window.open("https://twitter.com/adhitaazizi", "_blank");
         },
       },{
       id: 'light-theme',
