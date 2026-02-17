@@ -1,0 +1,23 @@
+- name: work
+  display_name: Work Projects
+  description: Professional projects and real-world applications showcasing expertise in machine learning, full-stack development, and cloud deployment.
+  tech_stack_overview:
+    - name: Machine Learning & AI
+      tools: PyTorch, TensorFlow, Hugging Face, Graph Neural Networks, Computer Vision, NLP
+    - name: Web & Mobile Development
+      tools: React, React Native, Flutter, Svelte, SvelteKit, Next.js, TypeScript
+    - name: Cloud & Infrastructure
+      tools: AWS, Google Cloud Platform, Docker, Kubernetes
+    - name: Data & Analytics
+      tools: Python, NumPy, Pandas, Scikit-learn, PyG, Biopython
+
+- name: fun
+  display_name: Fun Projects
+  description: Experimental and creative projects exploring new technologies and innovative ideas.
+  tech_stack_overview:
+    - name: Frontend Technologies
+      tools: Svelte, React, Vue.js, Tailwind CSS
+    - name: Backend & APIs
+      tools: Node.js, Flask, FastAPI, Express
+    - name: Tools & Libraries
+      tools: TypeScript, MDX, Paraglide-js, Vitest, Playwright

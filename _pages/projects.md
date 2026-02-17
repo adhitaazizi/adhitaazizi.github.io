@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of innovative projects spanning machine learning, web development, and mobile applications.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
@@ -14,9 +14,32 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
+  {% assign category_info = site.data.project_categories | where: "name", category | first %}
+  
+  <div class="category-section">
+    <a id="{{ category }}" href=".#{{ category }}">
+      <h2 class="category">{{ category_info.display_name | default: category }}</h2>
+    </a>
+    
+    {% if category_info.description %}
+    <p class="category-description">{{ category_info.description }}</p>
+    {% endif %}
+    
+    {% if category_info.tech_stack_overview %}
+    <div class="tech-stack-overview mb-4">
+      <h5 class="text-muted mb-3">Tech Stack Overview</h5>
+      <div class="row">
+        {% for tech_group in category_info.tech_stack_overview %}
+        <div class="col-md-6 mb-2">
+          <strong>{{ tech_group.name }}:</strong>
+          <span class="text-muted">{{ tech_group.tools }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
