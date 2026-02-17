@@ -67,6 +67,8 @@ portfolio/
    - Neo4j Certified Professional (Neo4j GraphAcademy)
    - Each entry includes: `name`, `issuer`, `date`, `credential_id`, `credential_url`, `description`
    - Rendered via `_includes/certifications.liquid` with year badge and linked title
+   - Styled in `_sass/_base.scss` to support dark mode theme with proper background colors
+
 6. **CV** → Generated from `assets/json/resume.json` or `_data/cv.yml`
 7. **Publications** → Generated from `_bibliography/papers.bib` (currently hidden)
 
