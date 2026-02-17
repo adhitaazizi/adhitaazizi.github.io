@@ -2,7 +2,7 @@
 layout: page
 title: Antibody-Antigen Affinity Prediction
 description: Deep learning for predicting antibody-antigen binding affinity
-img: assets/img/antibody-antigen-afffinity-prediction
+img: assets/img/antibody-antigen-afffinity-prediction.png
 importance: 5
 category: work
 github: https://github.com/adhitaazizi/chewy

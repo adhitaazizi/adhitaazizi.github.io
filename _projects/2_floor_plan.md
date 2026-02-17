@@ -2,7 +2,7 @@
 layout: page
 title: Floor Plan Agentic Platform
 description: Multi-agent system for automated floor plan generation
-img: assets/img/floor-plan-generation
+img: assets/img/floor-plan-generation.png
 importance: 2
 category: work
 ---
