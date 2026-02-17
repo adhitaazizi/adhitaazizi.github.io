@@ -1,26 +1,37 @@
 # Certifications Data
 # Add your certifications here following this format
 
-- name: AWS Cloud Solutions Architect
-  issuer: Amazon Web Services
-  date: 2025-07-25
+- name: IBM Full Stack Software Developer
+  issuer: IBM (via Coursera)
+  date: 2025-01-01
   credential_id: 2GBV8TF9ZHTD
   credential_url: https://www.coursera.org/account/accomplishments/professional-cert/certificate/2GBV8TF9ZHTD
-  description: The certification covers the learning.
-  icon: fas fa-certificate  
-  Optional: Font Awesome icon
+  description: Professional certification covering full stack web development with modern technologies.
 
-- name: AWS Cloud Solutions Architect
-  issuer: Amazon Web Services
-  date: 2025-07-25
-  credential_id: 2GBV8TF9ZHTD
-  credential_url: https://www.coursera.org/account/accomplishments/professional-cert/certificate/2GBV8TF9ZHTD
-  description: The certification covers the learning.
+- name: Google Project Management
+  issuer: Google (via Coursera)
+  date: 2024-12-01
+  credential_id: GMSFZVOFH2UJ
+  credential_url: https://www.coursera.org/account/accomplishments/specialization/certificate/GMSFZVOFH2UJ
+  description: Specialization covering project management fundamentals and best practices.
 
-#
-# - name: TensorFlow Developer Certificate
-#   issuer: Google
-#   date: 2024-03-20
-#   credential_id: TF-DEV-789012
-#   credential_url: https://www.credential.net/verify
-#   description: Machine learning and deep learning with TensorFlow
+- name: Meta Back-End Developer
+  issuer: Meta (via Coursera)
+  date: 2024-11-01
+  credential_id: A2CGVSN0NK8B
+  credential_url: https://www.coursera.org/account/accomplishments/specialization/certificate/A2CGVSN0NK8B
+  description: Specialization focused on back-end development skills and technologies.
+
+- name: Neo4j Fundamentals
+  issuer: Neo4j GraphAcademy
+  date: 2024-10-01
+  credential_id: 6a3f301a-f922-4c24-b3b9-9bce910be3f0
+  credential_url: https://graphacademy.neo4j.com/c/6a3f301a-f922-4c24-b3b9-9bce910be3f0/
+  description: Certification in Neo4j graph database fundamentals.
+
+- name: Cypher Fundamentals
+  issuer: Neo4j GraphAcademy
+  date: 2024-10-01
+  credential_id: 1615088f-13f1-45f4-9de8-18d3a567faff
+  credential_url: https://graphacademy.neo4j.com/c/1615088f-13f1-45f4-9de8-18d3a567faff/
+  description: Certification in Cypher query language for Neo4j.

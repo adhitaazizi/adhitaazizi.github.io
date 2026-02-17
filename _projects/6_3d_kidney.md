@@ -5,8 +5,16 @@ description: Automated kidney structure segmentation from medical scans
 img: assets/img/3d-kidney-segmentation.png
 importance: 6
 category: work
+category_desc: Machine Learning
+tech_stack: PyTorch, 3D Segmentation, CT Images, FC-CNN
 github: https://github.com/adhitaazizi/computer-vision-project
 ---
+
+{% if page.img %}
+<div class="project-thumbnail mb-4">
+  {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" %}
+</div>
+{% endif %}
 
 ## Challenges
 

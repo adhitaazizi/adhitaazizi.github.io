@@ -5,7 +5,16 @@ description: Automated detection of symbols & text with AI-powered verification
 img: assets/img/product-packaging-verification.png
 importance: 1
 category: work
+category_desc: Machine Learning
+selected: true
+tech_stack: PyTorch, Roboflow, OCR, Object Detection, Scene Text Segmentation
 ---
+
+{% if page.img %}
+<div class="project-thumbnail mb-4">
+  {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" %}
+</div>
+{% endif %}
 
 ## Challenges
 

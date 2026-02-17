@@ -5,8 +5,16 @@ description: AI-Enhanced Learning Management System
 img: assets/img/tech-talent-academy.png
 importance: 4
 category: work
+category_desc: Mobile App
+tech_stack: React Native, Expo, NativeWind, AI APIs, Google Speech-to-Text, GCP
 github: https://github.com/adhitaazizi/TechTalent-Academy
 ---
+
+{% if page.img %}
+<div class="project-thumbnail mb-4">
+  {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" %}
+</div>
+{% endif %}
 
 ## Challenges
 

@@ -5,7 +5,16 @@ description: Multi-agent system for automated floor plan generation
 img: assets/img/floor-plan-generation.png
 importance: 2
 category: work
+category_desc: Machine Learning
+selected: true
+tech_stack: Next.js, PyTorch, Huggingface, vLLM, Autogen, AWS
 ---
+
+{% if page.img %}
+<div class="project-thumbnail mb-4">
+  {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" %}
+</div>
+{% endif %}
 
 ## Challenges
 
