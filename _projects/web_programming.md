@@ -11,14 +11,8 @@ github: https://github.com/adhitaazizi/web-programming-final-project
 ---
 
 <div class="project-video mb-4">
-  {% include video.liquid path="assets/video/web-programming-final-project.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+  {% include video.liquid path="assets/video/web-programming-final-project.mp4" class="img-fluid rounded z-depth-1" controls=true loop=true muted=true %}
 </div>
-
-{% if page.img %}
-<div class="project-thumbnail mb-4">
-  {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" %}
-</div>
-{% endif %}
 
 ## Overview
 
