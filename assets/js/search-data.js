@@ -373,46 +373,46 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-product-packaging-verification-system",
-          title: 'Product Packaging Verification System',
-          description: "Automated detection of symbols &amp; text with AI-powered verification",
+          section: "News",},{id: "projects-3d-kidney-segmentation",
+          title: '3D Kidney Segmentation',
+          description: "Automated kidney structure segmentation from medical scans",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_product_packaging/";
-            },},{id: "projects-floor-plan-agentic-platform",
-          title: 'Floor Plan Agentic Platform',
-          description: "Multi-agent system for automated floor plan generation",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_floor_plan/";
-            },},{id: "projects-telehealth",
-          title: 'Telehealth',
-          description: "Mobile Healthcare Consultation and Telemetry App",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_telehealth/";
-            },},{id: "projects-tech-talent-academy",
-          title: 'Tech Talent Academy',
-          description: "AI-Enhanced Learning Management System",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_tech_talent_academy/";
+              window.location.href = "/projects/3d_kidney/";
             },},{id: "projects-antibody-antigen-affinity-prediction",
           title: 'Antibody-Antigen Affinity Prediction',
           description: "Deep learning for predicting antibody-antigen binding affinity",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_antibody_antigen/";
-            },},{id: "projects-3d-kidney-segmentation",
-          title: '3D Kidney Segmentation',
-          description: "Automated kidney structure segmentation from medical scans",
+              window.location.href = "/projects/antibody_antigen/";
+            },},{id: "projects-floor-plan-agentic-platform",
+          title: 'Floor Plan Agentic Platform',
+          description: "Multi-agent system for automated floor plan generation",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_3d_kidney/";
-            },},{id: "projects-personal-portfolio-website",
-          title: 'Personal Portfolio Website',
-          description: "High-performance personal portfolio with Svelte 5 and SvelteKit",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_web_programming/";
+              window.location.href = "/projects/floor_plan/";
             },},{id: "projects-zenin-agency-marketing-landing-page",
           title: 'Zenin Agency Marketing Landing Page',
           description: "High-conversion marketing and agency landing page with scroll animations",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_marketing_web/";
+              window.location.href = "/projects/marketing_web/";
+            },},{id: "projects-product-packaging-verification-system",
+          title: 'Product Packaging Verification System',
+          description: "Automated detection of symbols &amp; text with AI-powered verification",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/product_packaging/";
+            },},{id: "projects-tech-talent-academy",
+          title: 'Tech Talent Academy',
+          description: "AI-Enhanced Learning Management System",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tech_talent_academy/";
+            },},{id: "projects-telehealth",
+          title: 'Telehealth',
+          description: "Mobile Healthcare Consultation and Telemetry App",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/telehealth/";
+            },},{id: "projects-personal-portfolio-website",
+          title: 'Personal Portfolio Website',
+          description: "High-performance personal portfolio with Svelte 5 and SvelteKit",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/web_programming/";
             },},{
         id: 'social-email',
         title: 'email',
