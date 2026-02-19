@@ -59,6 +59,8 @@ portfolio/
      - Title and description
      - Tech stack tags (first 4 shown, +N indicator if more)
      - GitHub repository link with star count
+   - **Project Details**:
+     - "Web Programming Final Project" and "Zenin Agency" include auto-playing video showcases at the top of their detail pages.
 5. **Certifications** → Displayed on the about (home) page, sourced from `_data/certifications.yml`:
    - Microsoft AI Product Manager (Coursera)
    - Microsoft AI & ML Engineering (Coursera)
@@ -77,7 +79,7 @@ portfolio/
 - **Theme Color**: #B71D1D (custom red)
 - **Theme Toggle**: Light/Dark mode toggle (no system option)
 - **Navbar Fixed**: Yes (scrolls with page)
-- **Search**: Enabled (Ctrl+K or click search icon)
+- **Search**: Disabled
 
 ## Social Links Configuration
 
