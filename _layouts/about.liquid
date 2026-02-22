@@ -58,8 +58,11 @@ layout: default
 
     <!-- Certifications -->
     {% if page.certifications and page.certifications.enabled %}
-      <h2>certifications</h2>
-      {% include certifications.liquid %}
+      <div style="display: flex; align-items: baseline; justify-content: space-between;">
+        <h2>Certifications</h2>
+        <a href="{{ '/certifications/' | relative_url }}" class="btn btn-sm" style="font-size: 0.85rem;">View All</a>
+      </div>
+      {% include certifications.liquid limit=3 %}
     {% endif %}
 
     <!-- Selected papers -->
@@ -73,7 +76,7 @@ layout: default
     <!-- Selected projects -->
     {% if page.selected_projects %}
       <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">selected projects</a>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Featured Projects</a>
       </h2>
       {% include selected_projects.liquid %}
     {% endif %}

@@ -1,7 +1,13 @@
 {% if site.data.certifications.size > 0 %}
+{% if include.limit %}
+  {% assign cert_limit = include.limit | plus: 0 %}
+  {% assign display_certs = site.data.certifications | slice: 0, cert_limit %}
+{% else %}
+  {% assign display_certs = site.data.certifications %}
+{% endif %}
 <div class="certifications">
   <ul class="card-text font-weight-light list-group list-group-flush">
-    {% for cert in site.data.certifications %}
+    {% for cert in display_certs %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 text-center" style="width: 90px;">
